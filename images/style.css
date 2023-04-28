@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(image.jpg);
+    background-size: cover;
+    background-position:center;
+
+}
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin:150px auto;
+
+}
+.login-left{
+    background: rgba(211,211,211,0.25);
+    padding:30px;
+
+}
+.login-right{
+    background:#fff;
+    padding:30px;
+}
+.form-control{
+    background-color:transparent !important;
+}
+
+a{
+    color:#fff!important;
+    margin-top: -200px  !important;
+}
+h1{
+    color:#fff !important;
+    margin: top 200px !important;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+
+.carousel-item:nth-child(1) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/imhttps://www.google.com/search?q=audi&rlz=1C1CHBF_enUS1033US1033&sxsrf=ALiCzsbJO0s3qVNoF6MvNatoE1_hlfiaNQ:1670830472657&source=lnms&tbm=isch&sa=X&ved=2ahUKEwilt7XGyPP7AhUmnXIEHWu7BLgQ_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#imgrc=x99zHpBA-8jeSMages/76.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+      /* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+          margin-top: -58.59px;
+        }
+}
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
